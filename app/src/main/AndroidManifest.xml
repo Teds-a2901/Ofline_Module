@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.offlineunit">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".quizhealth"></activity>
+        <activity android:name=".quizpe" />
+        <activity android:name=".quizart" />
+        <activity android:name=".quizmusic" />
+        <activity android:name=".quizesp" />
+        <activity android:name=".quizepp" />
+        <activity android:name=".quizap" />
+        <activity android:name=".quizfilipino" />
+        <activity android:name=".quizmath" />
+        <activity android:name=".quizscience" />
+        <activity android:name=".quizenglish" />
+        <activity android:name=".MainActivityCrossword" />
+        <activity android:name=".MainActivityYoga" />
+        <activity android:name=".MainActivityExercises" />
+        <activity android:name=".healthmodule5" />
+        <activity android:name=".healthmodule4" />
+        <activity android:name=".healthmodule3" />
+        <activity android:name=".healthmodule2" />
+        <activity android:name=".healthmodule1" />
+        <activity android:name=".pemodule5" />
+        <activity android:name=".pemodule4" />
+        <activity android:name=".pemodule3" />
+        <activity android:name=".pemodule2" />
+        <activity android:name=".pemodule1" />
+        <activity android:name=".artmodule5" />
+        <activity android:name=".artmodule4" />
+        <activity android:name=".artmodule3" />
+        <activity android:name=".artmodule2" />
+        <activity android:name=".artmodule1" />
+        <activity android:name=".musicmodule5" />
+        <activity android:name=".musicmodule4" />
+        <activity android:name=".musicmodule3" />
+        <activity android:name=".musicmodule2" />
+        <activity android:name=".musicmodule1" />
+        <activity android:name=".espmodule4" />
+        <activity android:name=".espmodule3" />
+        <activity android:name=".espmodule2" />
+        <activity android:name=".espmodule1" />
+        <activity android:name=".eppmodule5" />
+        <activity android:name=".eppmodule4" />
+        <activity android:name=".eppmodule3" />
+        <activity android:name=".eppmodule2" />
+        <activity android:name=".eppmodule1" />
+        <activity android:name=".apmodule5" />
+        <activity android:name=".apmodule4" />
+        <activity android:name=".apmodule3" />
+        <activity android:name=".apmodule2" />
+        <activity android:name=".apmodule1" />
+        <activity android:name=".filipinomodule5" />
+        <activity android:name=".filipinomodule4" />
+        <activity android:name=".filipinomodule3" />
+        <activity android:name=".filipinomodule2" />
+        <activity android:name=".filipinomodule1" />
+        <activity android:name=".mathmodule5" />
+        <activity android:name=".mathmodule4" />
+        <activity android:name=".mathmodule3" />
+        <activity android:name=".mathmodule2" />
+        <activity android:name=".mathmodule1" />
+        <activity android:name=".sciencemodule5" />
+        <activity android:name=".sciencemodule4" />
+        <activity android:name=".sciencemodule3" />
+        <activity android:name=".sciencemodule2" />
+        <activity android:name=".sciencemodule1" />
+        <activity android:name=".englishmodule4" />
+        <activity android:name=".englishmodule3" />
+        <activity android:name=".englishmodule2" />
+        <activity android:name=".englishmodule1" />
+        <activity android:name=".MainActivityHealthmodule" />
+        <activity android:name=".MainActivityPemodule" />
+        <activity android:name=".MainActivityArtmodule" />
+        <activity android:name=".MainActivityMusicmodule" />
+        <activity android:name=".MainActivityEspmodule" />
+        <activity android:name=".MainActivityEppmodule" />
+        <activity android:name=".MainActivityApmodule" />
+        <activity android:name=".MainActivityFilipinomodule" />
+        <activity android:name=".MainActivityMathmodule" />
+        <activity android:name=".MainActivitySciencemodule" />
+        <activity android:name=".MainActivityEnglishmodule" />
+        <activity android:name=".MainActivityExtra" />
+        <activity android:name=".MainActivitySplashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivityMinorsub" />
+        <activity android:name=".MainActivityMajorsub" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

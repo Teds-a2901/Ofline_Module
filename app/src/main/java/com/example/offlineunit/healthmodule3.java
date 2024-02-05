@@ -1,0 +1,18 @@
+package com.example.offlineunit;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.github.barteksc.pdfviewer.PDFView;
+
+public class healthmodule3 extends AppCompatActivity {
+private PDFView healthmodule3;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_healthmodule3);
+        healthmodule3 = (PDFView)findViewById(R.id.healthmodule3);
+        healthmodule3.fromAsset("healthm3.pdf").load();
+    }
+}
